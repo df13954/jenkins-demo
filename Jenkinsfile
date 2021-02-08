@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "npm evn"; npm install'
+                sh 'echo "npm evn go ! "; npm install'
             }
         }
         
