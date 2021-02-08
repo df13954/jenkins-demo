@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "npm evn go ! "; npm install'
+                sh 'echo "npm evn go 增加了docker权限 ! "; npm install'
             }
         }
         
